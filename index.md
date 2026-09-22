@@ -13,7 +13,12 @@ Lantern은 할 일·메모·집중 타이머·뉴스 브리핑을 한곳에서 �
 ## 시스템 요구사항
 
 - macOS 14.0 이상
-- Apple Silicon 및 Intel Mac 지원
+- **Apple Silicon (M 시리즈)** — 모든 기능 사용 가능
+- **Intel Mac** — 기기 내 AI 기능을 제외한 모든 기능 사용 가능
+
+### Intel Mac에서 제한되는 기능
+
+기기 내 AI 모델은 Apple Silicon의 Metal GPU 가속을 사용하므로 Intel Mac에서는 동작하지 않습니다. 해당 기능(AI 추천, 자동 태깅, 대화형 도우미)은 Intel Mac에서 자동으로 비활성화되며, 할 일·메모·집중 타이머·통계·뉴스 등 나머지 기능은 모두 정상 동작합니다.
 
 ---
 
